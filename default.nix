@@ -20,6 +20,7 @@ in
 {
 	inherit lib modules overlays;
 	inherit (pkgsGnomeExtensions.gnomeExtensions)
-		buildShellExtension emoji-selector cpu-power-manager
-		lock-screen-blur extension-reloader tray-icons;
+		buildShellExtension;
+		# emoji-selector cpu-power-manager
+		# lock-screen-blur extension-reloader tray-icons;
 }
