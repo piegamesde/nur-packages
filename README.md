@@ -9,8 +9,7 @@ Contents:
 	- A few packaged extensions: emoji-selector, cpu power manager, lock screen blur, extension reloader, …
 
 <!-- Remove this if you don't use github actions -->
-![Build and populate cache](https://github.com/nix-community/piegamesde/workflows/Build%20and%20populate%20cache/badge.svg)
-
+![Build and populate cache](https://github.com/piegamesde/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)
 <!--
 Uncomment this if you use travis:
 
