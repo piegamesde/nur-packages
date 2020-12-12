@@ -8,7 +8,7 @@ supported_versions = [
 ]
 
 # https://github.com/NixOS/nix/blob/master/src/libutil/hash.cc#L83-L84
-def fuck_documentation(bytes) -> str:
+def argh_i_hate_this(bytes) -> str:
     base32Chars = "0123456789abcdfghijklmnpqrsvwxyz"
     base32len = int((len(bytes) * 8 - 1) / 5 + 1);
     s = ""
@@ -59,7 +59,7 @@ def process_extension(extension) -> bool:
                 break
             hasher.update(data)
         digest = hasher.digest();
-        return fuck_documentation(digest)
+        return argh_i_hate_this(digest)
 
     extension["sha256"] = fetch_sha256sum(extension["uuid"], str(extension["version"]))
 
