@@ -27,5 +27,9 @@ rec {
 		pkgsGnomeExtensions.gnome36Extensions
 	);
 
+	gnome38Extensions = pkgs.recurseIntoAttrs (
+		pkgsGnomeExtensions.gnome38Extensions
+	);
+
 	matrix-conduit = pkgs.callPackage ./pkgs/matrix-conduit.nix {};
 }
